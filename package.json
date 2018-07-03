@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "Calculator made using Javascript and React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RicardoL-AFati/fccFrontEnd-calculator.git"
+  },
+  "author": "Ricardo Ledesma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RicardoL-AFati/fccFrontEnd-calculator/issues"
+  },
+  "homepage": "https://github.com/RicardoL-AFati/fccFrontEnd-calculator#readme"
+}
