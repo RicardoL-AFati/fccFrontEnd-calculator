@@ -43,7 +43,9 @@ class Calculator extends Component {
         );
     }
 }
-
+// Mapping state to container
 const mapStateToProps = ({ result }) => ({ result });
-const mapDispatchToProps = dispath => bindActionCreators({ btnClick }, dispath); 
+// Binding action creators to dispatch - to form state, and mapping dispatch to props 
+const mapDispatchToProps = dispath => bindActionCreators({ btnClick }, dispath);
+// Creating container of Calculator component  
 export default connect(mapStateToProps, mapDispatchToProps)(Calculator);

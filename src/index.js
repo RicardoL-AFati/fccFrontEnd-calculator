@@ -7,7 +7,7 @@ import App from './components/app';
 import reducers from './reducers';
 
 const store = createStore(reducers);
-
+// Passing store to all container components using Provider
 ReactDOM.render(
   <Provider store={store}>
     <App />
